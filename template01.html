@@ -1,0 +1,132 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<!--[if lt IE 8 ]><html lang="ja" class="ie ie7"><![endif]-->
+<!--[if IE 8 ]>   <html lang="ja" class="ie ie8"><![endif]-->
+<!--[if !IE]><!--><html lang="ja"><!--<![endif]-->
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=0.5,maximum-scale=1.5,user-scalable=1" />
+	<base href="[(site_url)]" />
+	<title>[*longtitle:ifempty=`[*pagetitle*]`*] | [(site_name)]</title>
+	<link rel="stylesheet" type="text/css" href="config/css/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="config/css/print.css" media="print" />
+	<link rel="stylesheet" type="text/css" href="config/css/grid.css" media="screen and (min-width: 641px), print" />
+	<link rel="stylesheet" type="text/css" href="config/css/frame.css" media="screen and (min-width: 641px), print" />
+	<link rel="stylesheet" type="text/css" href="config/css/common.css" media="screen and (min-width: 641px), print" />
+	<link rel="stylesheet" type="text/css" href="config/css/sp.css" media="screen and (max-width: 640px)" />
+	[*固有CSS*]
+	<!--[if lt IE 9]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><!-- html5対応 -->
+	<script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script><!-- css3対応 -->
+	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script><!-- mediaqueries対応 -->
+	<![endif]-->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+		//	alert("jQueryファイルの読み込みテスト。テスト完了後、この行は削除してください。");
+		});
+	</script>
+	[*固有JS*]
+</head>
+<body id="pid[*id*]" class="ctg[[UltimateParent]] tpl[*template*]">
+	<div class="header container_12">
+		<h1><a href="[(site_url)]" title="[(site_name)]"><img src="assets/templates/v1/logo.png"></a></h1>
+		<div class="sitenavi grid_4">
+			<form id="search" action="xxxxxxxx" method="POST">
+				<input id="search" class="cleardefault radius" type="text" name="search" value="キーワードを入力" onfocus="this.value=(this.value=='キーワードを入力')? '' : this.value ;" />
+				<input type="submit" value="" />
+			</form>
+		</div>
+		<div class="menu_button sp">
+			<a href="#"><img href="assets/templates/v1/btn_menu_sp.png" width=46" height="50" /></a>
+		</div>
+	</div>
+	<div class="mainmenu pc">
+		<ul class="container_12">
+			<li class="mm01"><a href="xxxx/xxxx.html" title="xxxxxxxx"><img src="assets/templates/v1/menu01.png" alt="xxxxxxxx" /><img class="on" src="assets/templates/v1/menu_on.png" alt=""></a></li>
+			<li class="mm02"><a href="xxxx/xxxx.html" title="xxxxxxxx"><img src="assets/templates/v1/menu02.png" alt="xxxxxxxx" /><img class="on" src="assets/templates/v1/menu_on.png" alt=""></a></li>
+			<li class="mm03"><a href="xxxx/xxxx.html" title="xxxxxxxx"><img src="assets/templates/v1/menu03.png" alt="xxxxxxxx" /><img class="on" src="assets/templates/v1/menu_on.png" alt=""></a></li>
+			<li class="mm04"><a href="xxxx/xxxx.html" title="xxxxxxxx"><img src="assets/templates/v1/menu04.png" alt="xxxxxxxx" /><img class="on" src="assets/templates/v1/menu_on.png" alt=""></a></li>
+			<li class="mm05"><a href="xxxx/xxxx.html" title="xxxxxxxx"><img src="assets/templates/v1/menu05.png" alt="xxxxxxxx" /><img class="on" src="assets/templates/v1/menu_on.png" alt=""></a></li>
+			<li class="mm06"><a href="xxxx/xxxx.html" title="xxxxxxxx"><img src="assets/templates/v1/menu06.png" alt="xxxxxxxx" /><img class="on" src="assets/templates/v1/menu_on.png" alt=""></a></li>
+		</ul>
+	</div>
+	<div class="cover">
+		<p><img src="assets/templates/v1/cover.jpg" alt="xxxxxxxx" /></p>
+	</div>
+	<div class="topicpath-top container_12 clearfix">
+		[[TopicPath? &ignoreIDs=`1` &tplSeparator=``]]
+	</div>
+	<div class="body container_12 clearfix">
+		<div class="content grid_8">
+			<h1>[*longtitle:ifempty=`[*pagetitle*]`*]</h1>
+			<p>[*content*]</p>
+		</div>
+		<div class="side grid_4">
+			<ul class="submenu pc">
+				<li><a href="xxxx" title="xxxx">xxxxx</a></li>
+				<li><a href="xxxx" title="xxxx">xxxxx</a></li>
+				<li><a href="xxxx" title="xxxx">xxxxx</a></li>
+				<li><a href="xxxx" title="xxxx">xxxxx</a></li>
+				<li><a href="xxxx" title="xxxx">xxxxx</a></li>
+				<li><a href="xxxx" title="xxxx">xxxxx</a></li>
+			</ul>
+			<ul class="banner">
+				<li><a href="xxxx" title="xxxx"><img src="assets/templates/v1/banner.png" alt="xxxxxxxx" /></a></li>
+				<li><a href="xxxx" title="xxxx"><img src="assets/templates/v1/banner.png" alt="xxxxxxxx" /></a></li>
+				<li><a href="xxxx" title="xxxx"><img src="assets/templates/v1/banner.png" alt="xxxxxxxx" /></a></li>
+				<li><a href="xxxx" title="xxxx"><img src="assets/templates/v1/banner.png" alt="xxxxxxxx" /></a></li>
+				<li><a href="xxxx" title="xxxx"><img src="assets/templates/v1/banner.png" alt="xxxxxxxx" /></a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="gotop container_12">
+		<a href="#header"><img src="assets/templates/v1/btn-gotop.png" alt="トップへ戻る"></a>
+	</div>
+	<div class="topicpath-bottom clearfix">
+		<div class="container_12">
+		[[TopicPath? &ignoreIDs=`1` &tplSeparator=``]]
+		</div>
+	</div>
+	<div class="footer">
+		<div class="container_12 clearfix">
+			<div class="grid_4 pc">
+				<img src="assets/templates/v1/site_info.png" alt="[(site_name)]" />
+			</div>
+			<div class="grid_4 pc">
+				<ul>
+					<li><a href="xxxx" title="xxxx">xxxxx</a></li>
+					<li><a href="xxxx" title="xxxx">xxxxx</a></li>
+					<li><a href="xxxx" title="xxxx">xxxxx</a></li>
+					<li><a href="xxxx" title="xxxx">xxxxx</a></li>
+					<li><a href="xxxx" title="xxxx">xxxxx</a></li>
+					<li><a href="xxxx" title="xxxx">xxxxx</a></li>
+				</ul>
+			</div>
+			<div class="grid_4 pc">
+				<ul>
+					<li><a href="xxxx" title="xxxx">xxxxx</a></li>
+					<li><a href="xxxx" title="xxxx">xxxxx</a></li>
+					<li><a href="xxxx" title="xxxx">xxxxx</a></li>
+					<li><a href="xxxx" title="xxxx">xxxxx</a></li>
+					<li><a href="xxxx" title="xxxx">xxxxx</a></li>
+					<li><a href="xxxx" title="xxxx">xxxxx</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="copyright">
+			<span>Copyright &copy; [(site_name)]</span>
+		</div>
+	</div>
+	<div class="sp_menu sp">
+		<ul>
+			<li class="mm01"><a href="xxxx/xxxx.html" title="xxxxxxxx"><img src="assets/templates/v1/menu01_sp.png" alt="xxxxxxxx" /></a></li>
+			<li class="mm02"><a href="xxxx/xxxx.html" title="xxxxxxxx"><img src="assets/templates/v1/menu02_sp.png" alt="xxxxxxxx" /></a></li>
+			<li class="mm03"><a href="xxxx/xxxx.html" title="xxxxxxxx"><img src="assets/templates/v1/menu03_sp.png" alt="xxxxxxxx" /></a></li>
+			<li class="mm04"><a href="xxxx/xxxx.html" title="xxxxxxxx"><img src="assets/templates/v1/menu04_sp.png" alt="xxxxxxxx" /></a></li>
+			<li class="mm05"><a href="xxxx/xxxx.html" title="xxxxxxxx"><img src="assets/templates/v1/menu05_sp.png" alt="xxxxxxxx" /></a></li>
+			<li class="mm06"><a href="xxxx/xxxx.html" title="xxxxxxxx"><img src="assets/templates/v1/menu06_sp.png" alt="xxxxxxxx" /></a></li>
+		</ul>
+	</div>
+</body>
+</html>
